@@ -1,0 +1,12 @@
+;LIBRARY	"VC_plugin"
+
+EXPORTS
+	TTBEvent_InitPluginInfo		@1
+	TTBEvent_FreePluginInfo		@2
+	TTBEvent_Execute			@3
+	TTBEvent_WindowsHook		@4
+	TTBEvent_Init				@5
+	TTBEvent_Unload				@6
+
+SECTIONS
+    .sharedata READ WRITE SHARED
